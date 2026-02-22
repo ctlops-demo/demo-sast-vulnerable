@@ -1,0 +1,19 @@
+{
+  "name": "sast-vulnerable-app",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable web app for SAST scanner demo (Opengrep/CodeQL)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "pg": "8.11.3",
+    "ejs": "3.1.9",
+    "cookie-parser": "1.4.6",
+    "multer": "1.4.5-lts.1",
+    "jsonwebtoken": "9.0.2",
+    "child_process": "*"
+  }
+}
